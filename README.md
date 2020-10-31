@@ -2,19 +2,19 @@
 Here, I store my Arch dotfiles for migrating between desktops.
 ## Software
 This is the list of software I use these configs with:
-**Window manager**: i3-gaps
-**Display manager**: ly
-**Screen locker**: i3lock-color
-**Compositor**: picom
-**Bar**: Polybar
-**Sound server**: PulseAudio
-**Terminal**: Termite
-**Shell**: bash
-**File manager**: vifm
-**Window switcher**: rofi
-**Audio visualizer**: cava
-**PDF/DjVu viewer**: Zathura
-**Image viewer**: sxiv
+- **Window manager**: i3-gaps
+- **Display manager**: ly
+- **Screen locker**: i3lock-color
+- **Compositor**: picom
+- **Bar**: Polybar
+- **Sound server**: PulseAudio
+- **Terminal**: Termite
+- **Shell**: bash
+- **File manager**: vifm
+- **Window switcher**: rofi
+- **Audio visualizer**: cava
+- **PDF/DjVu viewer**: Zathura
+- **Image viewer**: sxiv
 ## Useful info
 - The script ```wallpaper.sh``` requires a folder with jpg images, numbered from 1.
 - The script ```lock.sh``` requires ffmpeg & x11grab.
