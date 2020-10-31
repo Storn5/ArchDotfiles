@@ -2,14 +2,14 @@
 
 font="sans-serif"
 IMG="/home/storn/imgs/lockwall.jpg"
-LOCK="/home/storn/imgs/lock2.png"
+LOCK="/home/storn/imgs/lock.png"
 RES=$(xrandr | grep 'current' | sed -E 's/.*current\s([0-9]+)\sx\s([0-9]+).*/\1x\2/')
  
 ffmpeg -f x11grab -video_size $RES -y -i $DISPLAY -i $LOCK -filter_complex "boxblur=7:2:5:2:5:2,overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2+50" -vframes 1 $IMG -loglevel quiet
 
 i3lock \
-		-i $LOCK \
-		--timepos='x+320:h-620' \
+		-i "$IMG" \
+		--timepos='x+335:h-620' \
 		--datepos='x+43:h-570' \
 		--verifpos='x+1150:h-334' \
 		--wrongpos='x+1150:h-334' \

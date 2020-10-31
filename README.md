@@ -52,5 +52,11 @@ In "System" mode:
 - Anything else: return to "Default" mode
 
 ## Screenshots
+Searching for an app with rofi:
 ![Screenshot 1](screen1.png)
+
+Working with vim & termite:
 ![Screenshot 2](screen2.png)
+
+Lock screen:
+![Screenshot 3](screen3.png)
