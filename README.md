@@ -22,7 +22,7 @@ This is the list of software I use these configs with:
 - You can change the country in ```corona.sh```.
 - You can change the package manager in ```updates.sh```. The default one is yay.
 ## Shortcuts
-The Windows key is used as the $mod key by default (can be changed in ```.config/i3/config```.
+The Windows key is used as the $mod key by default (can be changed in ```.config/i3/config```.\
 In "Default" mode:
 - ```$mod D```: rofi
 - ```$mod P```: import (screenshot)
@@ -38,13 +38,13 @@ In "Default" mode:
 - ```$mod 0-9```: switch workspace
 - ```$mod Shift 0-9```: move window to workspace
 - ```$mod R```: enter "Resize" mode
-- ```$mod Q```: enter "System" mode
+- ```$mod Q```: enter "System" mode\
 In "System" mode:
 - ```L```: lock screen
 - ```E```: exit (return to login)
 - ```R```: reboot
 - ```S```: shutdown
-- Anything else: return to "Default" mode
+- Anything else: return to "Default" mode\
 ## Screenshots
 ![Screenshot 1](screen1.png)
 ![Screenshot 2](screen2.png)
