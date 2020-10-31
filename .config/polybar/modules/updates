@@ -1,0 +1,11 @@
+[module/updates]
+type = custom/script
+
+format = <label>
+label = %output%
+format-padding = 0
+format-underline = #6435fc
+
+exec = /home/storn/scripts/updates.sh
+
+interval = 60

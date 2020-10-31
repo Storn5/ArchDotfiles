@@ -1,0 +1,8 @@
+[module/filesystem-slash]
+type = internal/fs
+interval = 600
+mount-0 = /
+label-mounted = " %percentage_used%%"
+format-mounted-underline = #f5dd0a
+;label-unmounted = %mountpoint%: not mounted
+;label-unmounted-foreground = ${colors.foreground-alt}

@@ -1,0 +1,81 @@
+[options]
+allow_bold = true
+audible_bell = false
+bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+clickable_url = true
+#dynamic_title = true
+font = Monospace 9
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 1000
+search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+cursor_blink = off # Maybe this fixes the black line bug?
+
+# "block", "underline" or "ibeam"
+cursor_shape = ibeam
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+scrollbar = off
+
+[colors]
+
+# special
+foreground      = #fafafa
+foreground_bold = #fafafa
+cursor          = #fafafa
+background      = rgba(0, 0, 0, 0.67)
+
+# black
+color0  = #1d1f21
+color8  = #969896
+
+# red
+color1  = #f50a3d
+color9  = #f50a3d
+
+# green
+color2  = #1fff35
+color10 = #1fff35
+
+# yellow
+color3  = #f5dd0a
+color11 = #f5dd0a
+
+# blue
+color4  = #0a6cf5
+color12 = #0a6cf5
+
+# magenta
+color5  = #914dff
+color13 = #914dff
+
+# cyan
+color6  = #0af593
+color14 = #0af593
+
+# white
+color7  = #c5c8c6
+color15 = #ffffff

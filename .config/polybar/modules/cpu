@@ -1,0 +1,16 @@
+[module/cpu]
+type = internal/cpu
+interval = 3
+format = <ramp-coreload>
+format-prefix = "CPU "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #f50a3d
+label = %percentage%
+ramp-coreload-0 = %{F#5b}▁%{F-}
+ramp-coreload-1 = %{F#5b}▂%{F-}
+ramp-coreload-2 = %{F#5b}▃%{F-}
+ramp-coreload-3 = %{F#f50a3d}▄%{F-}
+ramp-coreload-4 = %{F#f50a3d}▅%{F-}
+ramp-coreload-5 = %{F#f50a3d}▆%{F-}
+ramp-coreload-6 = %{F#f50a3d}▇%{F-}
+ramp-coreload-7 = %{F#f50a3d}█%{F-}

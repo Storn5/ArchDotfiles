@@ -1,0 +1,11 @@
+[module/age]
+type = custom/script
+
+format = <label>
+label = %output%
+format-padding = 0
+format-underline = #0a6cf5
+
+exec = /home/storn/scripts/age.sh
+
+interval = 60000

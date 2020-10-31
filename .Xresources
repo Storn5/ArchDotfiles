@@ -1,0 +1,20 @@
+!UXTerm*Background: black
+!UXTerm*Foreground: white
+Xft*antialias: true
+Xft*hinting: 1
+Xft*dpi: 96
+!XTerm*font: -*-hack-medium-r-normal-*-*-*-*-*-*-*-*-*
+!UXTerm*renderFont: true
+!UXTerm*faceSize: 9
+!UXTerm*faceName: "Noto Sans"
+!UXTerm*letterSpace: 1
+!UXTerm*utf8: 1
+!UXTerm*eightBitInput: false
+!UXTerm*eightBitControl: false
+!UXTerm*eightBitOutput: true
+!UXTerm*scrollBar: false
+!UXTerm*internalBorder: 10
+!UXTerm*saveLines: 1024
+!UXTerm*HiForeColor: black
+!UXTerm*HiBackColor: Linen
+!UXTerm*Translations: #override                  Ctrl Shift <Key>V:    insert-selection(SELECT) \n                 Ctrl Shift <Key>C:    copy-selection(SELECT)

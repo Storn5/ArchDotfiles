@@ -1,0 +1,7 @@
+[module/localip]
+type = internal/network
+interface = eno1
+;wlp2s0
+label-connected = "%local_ip%"
+format-connected = <label-connected>
+format-connected-underline=#6435fc

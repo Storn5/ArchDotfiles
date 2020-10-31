@@ -1,0 +1,11 @@
+[module/uptime]
+type = custom/script
+
+format = <label>
+label = %output%
+format-padding = 0
+format-underline = #0a6cf5
+
+exec = /home/storn/scripts/uptime.sh
+
+interval = 60
